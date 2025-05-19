@@ -1,0 +1,244 @@
+/*-------------------------------------------------------------------------------------------------------------------------
+    Default Font Specifications
+        h1: Lavishly Yours
+        h2: DynaPuff, system-ui
+        h3: Lavishly Yours
+        p: DynaPuff
+---------------------------------------------------------------------------------------------------------------------------*/
+
+h1 {
+    font-family: 'Lavishly Yours', cursive;
+    font-size: 100px;
+}
+
+h2 {
+    font-family: 'Lavishly Yours', cursive;
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 35px;
+    font-family: DynaPuff, system-ui;
+}
+
+p {
+    font-family: DynaPuff, system-ui;
+    font-size: 19px;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------
+    Body
+--------------------------------------------------------------------------------------------------------------------------*/
+
+body {
+    background-color: hsla(335, 100%, 85%, 100%);
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------
+    Header
+--------------------------------------------------------------------------------------------------------------------------*/
+
+header {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0;
+    border-radius: 20px;
+}
+
+header h1 {
+    display: flex;
+    margin: 0;
+    padding: 20px;
+    border: 10px solid hsla(335, 100%, 75%, 100%);
+    border-radius: 20px;
+}
+
+header h3 {
+    display: flex;
+    margin-top: 30px;
+    font-family: 'Garamond', 'Times New roman', serif;
+    font-style: italic;
+    color: hsla(335, 100%, 60%, 100%);
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------
+    Navigation Bar
+---------------------------------------------------------------------------------------------------------------------------*/
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: hsla(335, 100%, 85%, 100%);
+    padding-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+nav li {
+    display: flex;
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+
+nav button{
+    font-family: DynaPuff, system-ui;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: hsla(335, 100%, 85%, 100%);
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    z-index: 99;
+}
+
+nav button:hover {
+    background-color: hsla(335, 100%, 75%, 100%);
+    color: black;
+    z-index: 100;
+}
+
+nav button:active {
+    background-color: hsla(335, 100%, 65%, 100%);
+    z-index: 101;
+}
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------
+    HOME PAGE--main content
+
+        *Change the table to Flexbox for better responsiveness*
+---------------------------------------------------------------------------------------------------------------------------*/
+
+main {
+
+}
+
+/*------------page hero------------*/
+.page-hero {
+    border: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.page-hero h2 {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+}
+
+.page-hero-website {
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 50px;
+}
+/*---------------------------------*/
+
+
+/*----------main content-----------*/
+.home-main-content {
+    display: flex;
+    flex-flow: column wrap;
+
+}
+/*---------------------------------*/
+
+
+/*-------main content images-------*/
+.home-image {
+    width: 400px;
+    height: 533.33px;
+    z-index: 98;
+    border-radius: 10px;
+}
+/*---------------------------------*/
+
+
+/*--------main content text--------*/
+.home-main-content ul {
+    display: flex;
+    list-style-type: none;
+    position: sticky;
+    top: 150px;
+    margin-bottom: 50px;
+}
+
+.home-main-content .home-text {
+    background-color: hsla(335, 100%, 80%, 100%);
+    border-radius: 10px;
+    border: 5px solid hsla(335, 100%, 75%, 100%);
+    padding: 0 20px;
+}
+
+.home-text {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 50px;
+}
+
+.home-text a {
+    color: hsla(335, 100%, 55%, 100%);
+    text-decoration: none;
+}
+
+.home-text a:hover {
+    cursor: pointer;
+    color: hsla(335, 100%, 45%, 100%);
+}
+
+.home-text a:active {
+    color:hsla(335, 100%, 65%, 100%)
+}
+
+.signature {
+    font-family: 'Lavishly Yours', cursive;
+    font-size: 35px;
+    margin: 0;
+}
+/*---------------------------------*/
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------
+    Footer
+---------------------------------------------------------------------------------------------------------------------------*/
+    
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+footer p {
+    font-family: Garamond;
+    color:hsla(335, 100%, 60%, 100%);
+}
+/*-------------------------------------------------------------------------------------------------------------------------*/
